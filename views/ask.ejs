@@ -1,0 +1,28 @@
+<%- include('partials/header') -%>
+<body>
+<%- include('partials/navbar') -%>
+<div class="container">
+    <div class="card mt-4">
+        <div class="card-header bg-sky">
+            <h1>Make your question:</h1>
+        </div>
+
+        <div class="card-body bg-blue">
+    <form method="post" action="/saveQuestion">
+        <div class="form-group">
+            <label class="text-white">Title</label>
+        <input class="form-control input-gray" type="text" autocomplete="off" name="title" placeholder="Title">
+            <br>
+            <label class="text-white">Description</label>
+        <textarea class="form-control input-gray" name="description" placeholder="Describe your question"></textarea>
+            <br>
+            <button class="btn btn-sky" type="submit">Ask</button>
+        </div>
+    </form>
+    </div>
+    </div>
+</div>
+
+</body>
+<%- include('partials/footer') -%>
+</html>

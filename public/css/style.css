@@ -1,0 +1,21 @@
+body{
+    background-color: #e2f3f5;
+}
+.bg-blue{
+    background-color: #3d5af1;
+}
+.bg-sky{
+    background-color: #22d1ee !important;
+}
+.btn-sky{
+    background-color: #22d1ee;
+}
+.btn-sky:hover{
+    background-color: #00b4ff;
+}
+.input-gray{
+    background-color: #e2f3f5;
+}
+.input-gray:focus{
+    background-color: #e2f3f5 !important;
+}
